@@ -48,7 +48,7 @@ const drawerConfig = [
   },
 ];
 
-export const MacbookAir = (): React.ReactElement => {
+export const Welcome = (): React.ReactElement => {
   const [isPhoneHovered, setIsPhoneHovered] = useState(false);
 
   return (
@@ -67,7 +67,7 @@ export const MacbookAir = (): React.ReactElement => {
               className="w-full h-auto object-contain"
               priority
             />
-            
+
             {/* 顶层：激活背景图 */}
             <Image
               src="/images/cabinet-bg-active.jpg"
@@ -166,10 +166,10 @@ export const MacbookAir = (): React.ReactElement => {
         {/* 右列：欢迎文字 - 垂直居中对齐柜子高度 */}
         <div className="flex items-center justify-center md:justify-start w-full md:w-auto md:ml-55 mt-50">
           <p className="font-sans font-thin text-black tracking-widest text-2xl md:text-4xl leading-relaxed text-center md:text-left">
-            欢迎来到我的房间，
-            <br />
-            在此进行自由的探索吧！
-          </p>
+        欢迎来到我的房间，
+        <br />
+        在此进行自由的探索吧！
+      </p>
         </div>
       </div>
     </div>
