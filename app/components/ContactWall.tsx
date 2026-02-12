@@ -12,8 +12,8 @@ const drawerFont = localFont({
 
 const contactData = {
   email: "my_luv4@outlook.com",
-  linkedin: "https://www.linkedin.com/in/yuanmy",
-  linkedinDisplay: "/in/yuanmy",
+  linkedin: "https://www.linkedin.com/in/yuanmyy",
+  linkedinDisplay: "/in/yuanmyy",
 };
 
 export default function ContactWall() {
